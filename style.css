@@ -129,7 +129,6 @@ html{
 }
 .device-right{
     position: relative;
-    
 }
 .device-right video{
     position: absolute;
@@ -137,4 +136,12 @@ html{
     
     left: 115px;
     top: 9%;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-top: 8px solid #232323;
 }
