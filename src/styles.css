@@ -57,6 +57,10 @@ body {
   border-radius: 4px;
 }
 
+.signin__button:hover{
+  background-color: #ab020b;
+}
+
 .navbar__nav__items {
   display: flex;
   gap: 10px;
@@ -167,6 +171,10 @@ body {
   font-size: 20px;
   font-weight: bolder;
   letter-spacing: 1px;
+}
+
+.primary__button:hover{
+  background-color: #ab020b;
 }
 
 .feature {
