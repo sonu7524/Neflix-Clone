@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+html{
+    background-color: black;
+}
+.top-header{
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)), url(./images/bg-1.jpg);
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 160px;
+    padding-top: 10px;
+}
+.side-menu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 8px;
+}
+.lang-container{
+    position: relative;
+    border: 1px solid #605F5F;
+    border-radius: 4px;
+}
+
+.language, .dropdown{
+    position: absolute;
+    top: 5px;
+}
+.lang{
+    padding: 10px 25px;
+    background-color: rgba(0,0,0,0.6);
+}
+.dropdown{
+    top: 6px;
+    right: -3px;
+}
+.btn{
+    padding: 8px 18px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+.header-content{
+    margin: 25vh auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-content h1, .header-content p{
+    margin-top: 20px;
+}
+
+.header-content h1{
+    font-size: 40px;
+    font-weight: 1000;
+}
+.header-content p{
+    font-size: 20px;
+    font-weight: small;
+}
+.email{
+    width: 60%;
+    height: 7vh;
+    display: flex;
+    gap: 20px;
+    
+    margin-top: 10px;
+}
+.email > input{
+    flex-grow:1;
+    background-color: rgba(0,0,0,0.6) ;
+    border: 1px solid  #605F5F;
+    font-size: medium;
+    padding: 0 10px;
+}
+.get-started-btn{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.get-started-btn > span{
+    font-size: 30px;
+}
+
+
+/* body content */
+.body-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    border-top: 8px solid #232323;
+}
+.left-item{
+    margin-top: 40px;
+}
+.left-item h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.left-item p{
+    font-size: larger;
+}
+.right-item{
+    
+    position: relative;
+}
+.right-item > video{
+    position: absolute;
+    left: 80px;
+    top: 20%;
+    z-index: -1;
+}
+.device-right{
+    position: relative;
+    
+}
+.device-right video{
+    position: absolute;
+    width: 400px;
+    
+    left: 115px;
+    top: 9%;
+}
